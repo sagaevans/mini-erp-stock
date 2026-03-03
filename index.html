@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mini ERP - Stock Control</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<div class="sidebar">
+  <h2>Mini ERP</h2>
+  <ul>
+    <li>Dashboard</li>
+    <li>Stock</li>
+    <li>Reports</li>
+  </ul>
+</div>
+
+<div class="main">
+
+  <div class="topbar">
+    <h1>Stock Control Dashboard</h1>
+  </div>
+
+  <div class="kpi-container">
+    <div class="card">
+      <h3>Total Item</h3>
+      <p id="totalItem">0</p>
+    </div>
+
+    <div class="card">
+      <h3>Reorder</h3>
+      <p id="reorderItem">0</p>
+    </div>
+
+    <div class="card">
+      <h3>Overstock</h3>
+      <p id="overstockItem">0</p>
+    </div>
+  </div>
+
+  <div class="chart-container">
+    <canvas id="stockChart"></canvas>
+  </div>
+
+  <div class="table-container">
+    <table>
+      <thead>
+        <tr>
+          <th>Material</th>
+          <th>Stock</th>
+          <th>Min Stock</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody id="stockTable"></tbody>
+    </table>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
