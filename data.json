@@ -1,0 +1,6 @@
+[
+  { "name": "Besi WF 200", "stock": 12, "minStock": 20 },
+  { "name": "Semen 50kg", "stock": 340, "minStock": 200 },
+  { "name": "Baut M16", "stock": 980, "minStock": 500 },
+  { "name": "Cat Epoxy", "stock": 40, "minStock": 30 }
+]
